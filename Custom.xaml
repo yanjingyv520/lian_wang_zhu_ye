@@ -1,0 +1,100 @@
+<local:MyCard Title="新闻NEW：近日要事-----------点击了解更多" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" Foreground="#8C7721"
+                   Text="制作中...敬请期待！" />
+        <local:MyListItem Margin="-2,0,0,0"
+               Logo="pack://application:,,,/images/blocks/Grass.png" Title="启动基岩版"
+               Info="以 URL Scheme 的方式启动电脑上的 MC 基岩版。" EventType="打开网页" EventData="minecraft://"
+               Type="Clickable" />
+</StackPanel>
+        </local:MyCard>
+<local:MyCard Title="欢迎游玩BUC社区服务器！------------- 点击使用更多功能" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+        
+	<StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" Foreground="#8C7721"
+                   Text="BUC联动了超过5个服务器！" />
+        <TextBlock Margin="0,0,0,4" Foreground="#8C7721"
+                   Text="实力CN_Minecraft社区" />
+        <TextBlock Margin="0,0,0,4" Foreground="#800000"
+                   Text="方块宇宙系列服务器-只为您更好的游戏体验。" />
+        <TextBlock Margin="0,0,0,4" Foreground="#800000"
+                   Text="TC32，为你而生" />
+        <TextBlock Margin="0,0,0,4" Foreground="#800000"
+                   Text="方梦华server-小型地缘政治生存合作服务器" />
+        <TextBlock Margin="20,5,20,0" FontSize="11"
+                   Text="官方QQ群: 275864849 服主QQ: 1782307393" />		
+        <TextBlock Margin="20,5,20,0" FontSize="11"
+                   Text="感谢您的支持" />	
+        <TextBlock Margin="20,5,20,0" FontSize="11" Foreground="#8C7721"
+                   Text="该社区由未来智联--方块宇宙工作室驱动" />
+        <local:MyHint Margin="0,8,0,2" 
+                    Text="请使用官方客户端进入服务器，禁止使用任何非法客户端进入服务器，服务器内装有反作弊，请勿以任何理由，任何原因使用任何作弊手段，一经发现将会被立刻封禁!!!" /> 
+		<local:MyHint Margin="0,8,0,2"
+                    Text="请注意:本服务器的反作弊误封几率极低，如出现误封情况请将游戏界面和封禁时间截图并附上无作弊证据发送至官方客服申请解封！" /> 
+        <TextBlock Margin="0,0,0,4" Foreground="#8C7721"
+                   Text="  " />
+	    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+	<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                Text="未来智联官网" EventType="打开网页" EventData="https://wdsj.wlzlbof.cn" />
+	<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                Text="方块宇宙官网" EventType="打开网页" EventData="https://block.wlzlbof.cn" />
+	<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                Text="还有疑问？" EventType="弹出窗口" EventData="其他疑问|问:服务器版本多少？\n答:理论上都是1.8到最新版\n \n问:客户端可以装自己的优化模组吗？\n答:否定，服务器内装有特定插件，只能使用官方客户端进入游戏，MOD列表有任何变动都会导致无法进入服务器，请不要随意装载任何其他模组\n \n问:我可以装载我自己的材质包或光影吗？\n答:肯定，您可以在您的客户端上装载材质包和光影，但请注意禁止使用矿透材质包或透视光影，一经发现将会封禁\n \n问:服务器官方是谁？\n答:请认准BUC社区官方QQ群！（275864849）\n \n问:我被误封了怎么办？我可以申请解封吗？\n答:否定，该游戏几乎不会出现误封的情况，如果您确确实实被误封了，请向管理员出示您的游戏视频和MOD列表" />
+</StackPanel>
+<!-- 这是第二行 -->
+<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+	<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                Text="加入社区官方QQ群" EventType="打开网页" EventData="https://qm.qq.com/q/X5yNKM8JY4"/>
+	<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                Text="内存优化" EventType="内存优化" />
+	<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                Text="上架自己的服务器" EventType="弹出窗口" EventData="如何上架自己的服务器？|如何上架自己的服务器？\n加入开发者社区吧！（1015189606）\n \n加入开发者社区填写申请模板：\n服务器名称，服务器交流群号，服务器IP，服务器类型。\n \n若未同意进群则视为不通过，您的服务器不会被上架！\n欢迎各位服主加入我们以完善这个社区！" />
+</StackPanel>
+<!-- 这是第三行 -->
+<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+        <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                Text="清理垃圾" EventType="清理垃圾" />
+        <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                Text="今日运气" EventType="今日人品" />
+</StackPanel>
+	</StackPanel>
+</local:MyCard>
+<local:MyCard Title="当前社区热门服务器！" Margin="0,0,0,15" CanSwap="True">
+	<StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" Foreground="#800000"
+                   Text="这些社区服务器当下十分热门！" />
+        <TextBlock Margin="0,0,0,4" Foreground="#800000"
+                   Text="社区官方QQ群: 275864849 服主QQ: 1782307393" />		
+        <TextBlock Margin="0,0,0,4" Foreground="#800000"
+                   Text="感谢您的支持" />	
+        <TextBlock Margin="0,0,20,0" FontSize="11" Foreground="#8C7721"
+                   Text="该社区由未来智联--方块宇宙工作室驱动" />
+        <local:MyHint Margin="0,8,0,2" 
+                    Text="请使用官方客户端进入服务器，禁止使用任何非法客户端进入服务器，服务器内装有反作弊，请勿以任何理由，任何原因使用任何作弊手段，一经发现将会被立刻封禁!!!" /> 
+		<local:MyHint Margin="0,8,0,2"
+                    Text="请注意:本服务器的反作弊误封几率极低，如出现误封情况请将游戏界面和封禁时间截图并附上无作弊证据发送至官方客服申请解封！" /> 
+        <TextBlock Margin="0,5,20,0" Foreground="#800000"
+                   Text="点击服务器名称可快速进入服务器哦" />
+        <TextBlock Margin="0,0,0,4" Foreground="#8C7721"
+                   Text="  " />
+        <TextBlock Margin="0,0,0,4" Foreground="#8C7721"
+                   Text="  " />
+	    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+	<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                Text="方块宇宙初代" EventType="启动游戏" EventData="方块宇宙初代客户端|xxx.com" />
+	<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                Text="LOTS命运" EventType="启动游戏" EventData="LOTS命运客户端|ganzhou-eb7c59a5.ofalias.net:57347" />
+	<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                Text="方梦华" EventType="启动游戏" EventData="方梦华客户端|xxx.com" />
+    <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+            Text="科创纪元" EventType="启动游戏" EventData="科创纪元|yjq.qweasdzxc11.top:30000" />
+</StackPanel>
+<!-- 这是第二行 -->
+<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+	<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                Text="方块宇宙V2" EventType="启动游戏" EventData="方块宇宙V2客户端|ganzhou-eb7c59a5.ofalias.net:57347" />
+	<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                Text="方块宇宙中世纪" EventType="启动游戏" EventData="方块宇宙中世纪战争客户端|xxx.com" />
+</StackPanel>
+	</StackPanel>
+</local:MyCard>
